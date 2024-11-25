@@ -1,0 +1,14 @@
+span {
+    height: 50vh;
+    width: 50%;
+}
+
+.progress-circular {
+    display: inline-block;
+    animation: rotate-z 10s linear infinite;
+}
+
+@keyframes rotate-z {
+   from { transform: rotateZ(0deg); }
+   to { transform: rotateZ(360deg); }
+ }
